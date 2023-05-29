@@ -1,0 +1,19 @@
+.header {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.header-top {
+  background: #f4f4f4;
+  padding: 0 20px;
+}
+
+.header-list .header-list-item span {
+  font-size: 13px;
+  font-size: 400;
+}
+
+.nav-list .nav-list-item span {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

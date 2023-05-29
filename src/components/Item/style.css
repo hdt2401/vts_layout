@@ -1,0 +1,28 @@
+.item-container {
+  container-type: inline-size;
+  container-name: itemContainer;
+}
+
+@container itemContainer (min-width: 400px) {
+  .item-container .item {
+    display: flex;
+  }
+
+  .item-container .item>* {
+    flex: 1 1 50%;
+  }
+
+  .item-container .item-image {
+    margin-bottom: 0;
+    margin-right: 12px
+  }
+}
+
+.item-image {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.item-image img {
+  width: 100%;
+}
